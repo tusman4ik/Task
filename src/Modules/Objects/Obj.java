@@ -1,23 +1,22 @@
 package Modules.Objects;
 
+import Modules.Boxes.Box;
+import Modules.Boxes.BoxSample;
 import Modules.Boxes.BoxesSize;
+import Modules.Boxes.Coordinates;
 
 import java.util.Arrays;
 
 public class Obj {
-    private int x;
-    private int y;
-    private int z;
+    private Coordinates sizes;
 
 
     private boolean stackable;
     private int weight;
 
 
-    public Obj(int x, int y, int z, boolean stackable, int weight) {
-        this.x = x;
-        this.y = y;
-        this.z = z;
+    public Obj(Coordinates coordinates, boolean stackable, int weight) {
+        this.sizes=new Coordinates(coordinates);
         this.stackable = stackable;
         this.weight = weight;
     }
@@ -27,10 +26,8 @@ public class Obj {
         if (boxType < 0) {
             throw new ArithmeticException("The object more everything box");
         }
-        this.x = BoxesSize.getBoxesSizesAndWeightTable(canFit())[0];
-        this.y = BoxesSize.getBoxesSizesAndWeightTable(canFit())[1];
-        this.z = BoxesSize.getBoxesSizesAndWeightTable(canFit())[2];
-        this.weight += BoxesSize.getBoxesSizesAndWeightTable(canFit())[3];
+        int[] outside=BoxSample.getBox(boxType).getOutside().getArrayCoord();
+
     }
 
     public boolean isStackable() {
@@ -39,16 +36,18 @@ public class Obj {
 
     public int canFit() {
 
-        int[] objectSizes = {this.x, this.y, this.z};
+        int[] objectSizes = sizes.getArrayCoord();
         Arrays.sort(objectSizes);
         boolean flag;
-
+        Box box;
+        int [] inside;
         for (int i = 7; i >= 0; i--) {
-            int[] boxesSizes = BoxesSize.getInsideBoxesSizeTable(i);
-            Arrays.sort(boxesSizes);
+            box= BoxSample.getBox(i);
+            inside=box.getInside().getArrayCoord();
+            Arrays.sort(inside);
             flag = true;
             for (int j = 0; j < 3; j++) {
-                if (!(objectSizes[j] <= boxesSizes[j])) {
+                if (!(objectSizes[j] <= inside[j])) {
                     flag = false;
                 }
             }
@@ -59,16 +58,8 @@ public class Obj {
         return -1;
     }
 
-    public int getX() {
-        return x;
-    }
-
-    public int getY() {
-        return y;
-    }
-
-    public int getZ() {
-        return z;
+    public Coordinates getSizes() {
+        return sizes;
     }
 
     public int getWeight() {

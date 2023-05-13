@@ -9,7 +9,7 @@ public class SelectonManager {
     public static List<Obj> selectByX(List<Obj> objList, double maxX) {
         List<Obj> selectedList = new ArrayList<>();
         for (Obj obj : objList) {
-            double x = obj.getX();
+            double x = obj.getSizes().getX();
             if (x < maxX) {
                 selectedList.add(obj);
             }
@@ -20,7 +20,7 @@ public class SelectonManager {
     public static List<Obj> selectByY(List<Obj> objList, double maxY) {
         List<Obj> selectedList = new ArrayList<>();
         for (Obj obj : objList) {
-            double y = obj.getY();
+            double y = obj.getSizes().getY();
             if (y < maxY) {
                 selectedList.add(obj);
             }
@@ -31,7 +31,7 @@ public class SelectonManager {
     public static List<Obj> selectByZ(List<Obj> objList, double maxZ) {
         List<Obj> selectedList = new ArrayList<>();
         for (Obj obj : objList) {
-            double z = obj.getZ();
+            double z = obj.getSizes().getZ();
             if (z < maxZ) {
                 selectedList.add(obj);
             }

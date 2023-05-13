@@ -12,7 +12,7 @@ public class SortManager {
         List<Obj> sortedList = new ArrayList<>(objList);
         Collections.sort(sortedList, new Comparator<Obj>() {
             public int compare(Obj obj1, Obj obj2) {
-                return obj1.getX() - obj2.getX();
+                return obj1.getSizes().getX() - obj2.getSizes().getX();
             }
         });
 
@@ -23,7 +23,7 @@ public class SortManager {
         List<Obj> sortedList = new ArrayList<>(objList);
         Collections.sort(sortedList, new Comparator<Obj>() {
             public int compare(Obj obj1, Obj obj2) {
-                return obj1.getY() - obj2.getY();
+                return obj1.getSizes().getY() - obj2.getSizes().getY();
             }
         });
         return sortedList;
@@ -33,7 +33,7 @@ public class SortManager {
         List<Obj> sortedList = new ArrayList<>(objList);
         Collections.sort(sortedList, new Comparator<Obj>() {
             public int compare(Obj obj1, Obj obj2) {
-                return obj1.getZ() - obj2.getZ();
+                return obj1.getSizes().getZ() - obj2.getSizes().getZ();
             }
         });
         return sortedList;

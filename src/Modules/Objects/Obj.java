@@ -8,8 +8,11 @@ public class Obj {
     private int x;
     private int y;
     private int z;
+
+
     private boolean stackable;
     private int weight;
+
 
     public Obj(int x, int y, int z, boolean stackable, int weight) {
         this.x = x;
@@ -21,10 +24,17 @@ public class Obj {
 
     public void putInTheBox() {
         int boxType = canFit();
+        if (boxType < 0) {
+            throw new ArithmeticException("The object more everything box");
+        }
         this.x = BoxesSize.getBoxesSizesAndWeightTable(canFit())[0];
         this.y = BoxesSize.getBoxesSizesAndWeightTable(canFit())[1];
         this.z = BoxesSize.getBoxesSizesAndWeightTable(canFit())[2];
         this.weight += BoxesSize.getBoxesSizesAndWeightTable(canFit())[3];
+    }
+
+    public boolean isStackable() {
+        return stackable;
     }
 
     public int canFit() {
@@ -48,4 +58,21 @@ public class Obj {
         }
         return -1;
     }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
+
+    public int getZ() {
+        return z;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
 }

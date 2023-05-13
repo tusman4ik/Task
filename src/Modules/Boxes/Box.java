@@ -9,6 +9,7 @@ public class Box {
     private int y;
     private int z;
     private int weight;
+    private int maxWeight;
     private ArrayList<Obj> objects = new ArrayList<>();
     private int boxType;
 
@@ -33,5 +34,6 @@ public class Box {
         this.weight = buffer[3];
         this.objects = new ArrayList<>();
         this.boxType = boxType;
+        this.maxWeight=5_000;
     }
 }

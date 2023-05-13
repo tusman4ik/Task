@@ -6,7 +6,7 @@ public class BoxesSize {
 
     private static HashMap<Integer, int[]> createBoxesSizeTable() {
 
-        int[][] combinedArray = {
+        int[][] boxParameters = {
                 {841, 1189, 300, 400},
                 {841, 594, 270, 300},
                 {420, 594, 240, 250},
@@ -18,8 +18,8 @@ public class BoxesSize {
         };
 
         HashMap<Integer, int[]> hashMap = new HashMap<>();
-        for (int i = 0; i < combinedArray.length; i++) {
-            hashMap.put(i, combinedArray[i]);
+        for (int i = 0; i < boxParameters.length; i++) {
+            hashMap.put(i, boxParameters[i]);
         }
         return hashMap;
     }

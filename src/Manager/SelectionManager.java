@@ -5,7 +5,7 @@ import Modules.Objects.Obj;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SelectonManager {
+public class SelectionManager {
     public static List<Obj> selectByX(List<Obj> objList, double maxX) {
         List<Obj> selectedList = new ArrayList<>();
         for (Obj obj : objList) {

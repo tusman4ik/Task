@@ -35,7 +35,6 @@ public class Obj {
     }
 
     public int canFit() {
-
         int[] objectSizes = sizes.getArrayCoord();
         Arrays.sort(objectSizes);
         boolean flag;
@@ -45,6 +44,7 @@ public class Obj {
             box= BoxSample.getBox(i);
             inside=box.getInside().getArrayCoord();
             Arrays.sort(inside);
+
             flag = true;
             for (int j = 0; j < 3; j++) {
                 if (!(objectSizes[j] <= inside[j])) {

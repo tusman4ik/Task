@@ -18,11 +18,9 @@ public class InputManager {
         }
         return stringBuilder.toString();
     }
+/*
+* Input
+* Output*/
 
-    public static void main(String[] args) {
-        String fileName = "file.txt";
-        String fileContent = readFileToString(fileName);
-        System.out.println(fileContent);
-    }
 
 }

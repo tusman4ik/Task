@@ -1,4 +1,7 @@
-package Modules.Boxes;
+package Modules.Storages;
+
+import Modules.Boxes.Box;
+import Modules.Boxes.BoxesSize;
 
 import java.util.ArrayList;
 

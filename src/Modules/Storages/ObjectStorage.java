@@ -1,4 +1,6 @@
-package Modules.Objects;
+package Modules.Storages;
+
+import Modules.Objects.Obj;
 
 import java.util.ArrayList;
 

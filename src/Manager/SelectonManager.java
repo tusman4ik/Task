@@ -1,4 +1,4 @@
-package Logic.Helper;
+package Manager;
 
 import Modules.Objects.Obj;
 

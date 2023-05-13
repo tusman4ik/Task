@@ -1,7 +1,7 @@
 package Logic.Preparations;
 
 import Modules.Objects.Obj;
-import Modules.Objects.ObjectStorage;
+import Modules.Storages.ObjectStorage;
 
 import java.util.ArrayList;
 

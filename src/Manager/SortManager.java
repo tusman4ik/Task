@@ -1,4 +1,4 @@
-package Logic.Helper;
+package Manager;
 
 import Modules.Objects.Obj;
 
@@ -15,6 +15,7 @@ public class SortManager {
                 return obj1.getX() - obj2.getX();
             }
         });
+
         return sortedList;
     }
 

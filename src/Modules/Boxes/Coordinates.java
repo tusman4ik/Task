@@ -16,7 +16,7 @@ public class Coordinates {
     public int getZ() {
         return z;
     }
-    public int[] getArrayCoord(){
+    public int[] getCoordsArray(){
         return new int[]{getX(),getY(),getZ()};
     }
 

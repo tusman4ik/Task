@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4d65a28-4719-4cf8-8db8-c832fb064c79" name="Changes" comment="Add new classes">
+      <change afterPath="$PROJECT_DIR$/src/Input/InputManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Input/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input/InputManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/SelectonManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/SelectionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modules/Boxes/BoxesSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Boxes/BoxesSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modules/Objects/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Objects/Obj.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +42,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General"
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -107,14 +103,7 @@
       <option name="project" value="LOCAL" />
       <updated>1684009256631</updated>
     </task>
-    <task id="LOCAL-00008" summary="Add new classes">
-      <created>1684010476915</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1684010476915</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

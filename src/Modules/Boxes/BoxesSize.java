@@ -7,6 +7,7 @@ public class BoxesSize {
     private static HashMap<Integer, int[]> createBoxesSizeTable() {
 
         int[][] boxParameters = {
+                {841, 1189, 600, 800},
                 {841, 1189, 300, 400},
                 {841, 594, 270, 300},
                 {420, 594, 240, 250},

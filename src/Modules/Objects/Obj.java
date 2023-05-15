@@ -5,15 +5,27 @@ import Modules.Boxes.Box;
 import Modules.Boxes.BoxSample;
 import Modules.Boxes.Coordinates;
 import Modules.Storages.FinalObjectStorage;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.Arrays;
 
 public class Obj {
+    @JsonIgnore
     private Coordinates sizes;
+    @JsonIgnore
     private boolean stackable;
+    @JsonIgnore
     private int weight;
+    @JsonIgnore
+    int area;
+    @JsonIgnore
+    int box;
     private String name;
+    @JsonIgnore
     private int number;
+    @JsonIgnore
     private boolean isBox;
 
     public Obj(Coordinates coordinates, boolean stackable, int weight, String name, int number) {
@@ -33,8 +45,7 @@ public class Obj {
     public void putInTheBox() {
         int boxType = canFit();
         if (boxType < 0) {
-            L.e("The object more everything box. Coordinates equals : \n x= " + this.sizes.getX()
-                    + " y= " + this.sizes.getY() + " z= " + this.sizes.getZ() + " name = " + this.name);
+
             FinalObjectStorage.setListOfNotPlaced(this);
             return;
         }
@@ -43,6 +54,10 @@ public class Obj {
         this.isBox=true;
 
         FinalObjectStorage.setListOfPlaced(this);
+    }
+
+    public String getName() {
+        return name;
     }
 
     public boolean isStackable() {
@@ -55,7 +70,7 @@ public class Obj {
         boolean flag;
         Box box;
         int[] inside;
-        for (int i = 7; i >= 0; i--) {
+        for (int i = 8; i >= 0; i--) {
             objectSizes = sizes.getCoordsArray();
             Arrays.sort(objectSizes);
             inside = BoxSample.getBox(i).getInside().getCoordsArray();

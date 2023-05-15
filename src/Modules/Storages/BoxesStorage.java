@@ -1,15 +1,17 @@
 package Modules.Storages;
 
+import Modules.Boxes.Box;
+
 import java.util.ArrayList;
 
 public class BoxesStorage {
-    private ArrayList<Column> storage=new ArrayList<>();
+    private static ArrayList<Box> boxess = new ArrayList<>();
 
-    public int getArea(){
-        int sum = 0;
-        for (Column column:storage){
-            sum+=column.getArea();
-        }
-        return sum;
+    public static void addBox(Box box){
+        boxess.add(box);
+    }
+
+    public static ArrayList<Box> getBoxess() {
+        return boxess;
     }
 }

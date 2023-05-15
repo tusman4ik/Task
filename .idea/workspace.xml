@@ -4,27 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4d65a28-4719-4cf8-8db8-c832fb064c79" name="Changes" comment=" 12">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_javax_json_api_1_1_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logic/BoxLoading/LoadManader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logic/BoxLoading/Loader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Logic/BoxLoading/ObjectFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modules/Storages/FinalObjectStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="b4d65a28-4719-4cf8-8db8-c832fb064c79" name="Changes" comment="ПОБЕДАААА!!!&quot;">
+      <change afterPath="$PROJECT_DIR$/src/Logic/BoxPacking/PackingManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Modules/Storages/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Output/Information.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Output/Output.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Output/PrinterNotPlaced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Input/InputManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Input/InputManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/BoxLoading/LoadManader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/BoxLoading/LoadManader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/BoxLoading/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/BoxLoading/Loader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Logic/Preparations/PackingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/Preparations/PackingManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Manager/MainManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/MainManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/SelectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/SelectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modules/Boxes/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Boxes/Box.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Modules/Boxes/BoxSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Boxes/BoxSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modules/Boxes/BoxesSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Boxes/BoxesSize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Modules/Objects/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Objects/Obj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modules/Storages/BoxesStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Storages/BoxesStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Modules/Storages/Column.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Storages/Column.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684013464563</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="ПОБЕДАААА!!!&quot;">
+      <created>1684085507534</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684085507548</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +202,18 @@
     <MESSAGE value="Remove ts" />
     <MESSAGE value="Add new classes" />
     <MESSAGE value=" 12" />
-    <option name="LAST_COMMIT_MESSAGE" value=" 12" />
+    <MESSAGE value="ПОБЕДАААА!!!&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="ПОБЕДАААА!!!&quot;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="com.fasterxml.jackson.databind.exc.InvalidDefinitionException" package="com.fasterxml.jackson.databind.exc" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

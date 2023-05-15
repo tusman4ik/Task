@@ -15,7 +15,7 @@ public class Loader {
 
     public static Box load(int x, int y, int z ){
         box=new Box(0);
-        weight=5_000;
+        weight=10_000;
         loadRecursively(x,y,z );
         return box;
     }

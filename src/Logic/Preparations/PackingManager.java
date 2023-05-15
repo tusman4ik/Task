@@ -5,6 +5,7 @@ import Manager.Log.L;
 import Modules.Objects.Obj;
 import Modules.Storages.FinalObjectStorage;
 import Modules.Storages.ObjectStorage;
+import Output.Information;
 
 import java.util.ArrayList;
 
@@ -28,8 +29,10 @@ public class PackingManager {
         String data= InputManager.readFileToString(filePath);
         InputManager.addObjFromJson(data);
         packEverything();
-        System.out.println("Placed : "+ FinalObjectStorage.getListOfPlaced().size());
-        System.out.println("NotPlaced : "+ FinalObjectStorage.getListOfNotPlaced().size());
+        Information.setArea(FinalObjectStorage.getListOfPlaced().size());
+
 
     }
+
+
 }

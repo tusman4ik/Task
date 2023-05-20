@@ -5,22 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4d65a28-4719-4cf8-8db8-c832fb064c79" name="Changes" comment="ПОБЕДАААА!!!&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Logic/BoxPacking/PackingManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Modules/Storages/Storage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Output/Information.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Output/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Output/PrinterNotPlaced.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logic/BoxLoading/LoadManader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/BoxLoading/LoadManader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Logic/BoxLoading/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/BoxLoading/Loader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Logic/Preparations/PackingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Logic/Preparations/PackingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Manager/MainManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Manager/MainManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modules/Boxes/Box.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Boxes/Box.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modules/Boxes/BoxSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Boxes/BoxSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modules/Boxes/BoxesSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Boxes/BoxesSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modules/Objects/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Objects/Obj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modules/Storages/BoxesStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Storages/BoxesStorage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Modules/Storages/Column.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Modules/Storages/Column.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Output/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Output/Information.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684085507548</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ПОБЕДАААА!!!&quot;">
+      <created>1684154579510</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684154579510</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

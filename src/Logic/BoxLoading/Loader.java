@@ -27,6 +27,8 @@ public class Loader {
         box.addContent(obj);
         weight-=obj.getWeight();
         FinalObjectStorage.removeOfPlaced(obj);
+
+
         loadRecursively(x-obj.getSizes().getX(),y,z);
         loadRecursively(obj.getSizes().getX(),y-obj.getSizes().getY(),z);
         loadRecursively(obj.getSizes().getX(),obj.getSizes().getY(),z-obj.getSizes().getZ());

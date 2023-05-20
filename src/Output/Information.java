@@ -28,7 +28,7 @@ public class Information {
         System.out.println(" ");
         System.out.println("Fit : "+ area);
         System.out.println("Did not fit : "+ FinalObjectStorage.getListOfNotPlaced().size());
-        System.out.println("Number of boxes : "+ countBox);
+        System.out.println("Number of boxes : "+ countBox*2);
         System.out.println("Whole area : "+ Storage.getArea()+" mm²");
 
 
